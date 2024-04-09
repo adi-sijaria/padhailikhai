@@ -1,11 +1,8 @@
 "use client";
-
 import React from "react";
 import { ZegoUIKitPrebuilt } from "@zegocloud/zego-uikit-prebuilt";
-
 const page = ({ params }) => {
   const roomId = params.roomId;
-
   function randomID(len) {
     let result = "";
     if (result) return result;
@@ -23,7 +20,9 @@ const page = ({ params }) => {
   const myMeeting = async (element) => {
     // generate Kit Token
     // const appID = 696349274;
-    const serverSecret = "6f5a8757f4e455e614cee5b31a5b3fce";
+    // ceefa25d80a7898a136a1395fbfec929
+    // const serverSecret = "6f5a8757f4e455e614cee5b31a5b3fce";
+    const serverSecret = "ceefa25d80a7898a136a1395fbfec929";
     // const serverSecret = process.env.SERVERSECRET;
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
       // process.env.APPID,

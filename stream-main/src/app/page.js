@@ -72,16 +72,16 @@ export default function Home() {
 
   return (
     <div className="relative">
-      <h1 className="absolute top-3 left-3 text-3xl">Stream</h1>
+      <h1 className="absolute top-3 left-3 text-3xl">Padhai Likhai</h1>
       
       <div className="relative w-screen min-h-screen flex flex-col md:flex-row items-center justify-around py-28 md:py-0 gap-10 md:gap-0">
       <Image src={arrow} width={80} height={80} id="img"  className='absolute bottom-10 left-1/2 -translate-x-1/2' />
         <div className="md:max-w-[50%] max-w-[90%] flex flex-col gap-2 md:gap-6">
           <h1 className="head opacity-0 translate-y-24 text-4xl md:text-7xl font-bold">
-            Stream
+            Padhai Likhai
           </h1>
           <p className=" opacity-0 para text-2xl md:text-4xl">
-            One platform, endless conversations...
+            A promise for a better future ...
           </p>
           <div className="op opacity-0 flex flex-col md:flex-row md:items-center gap-2">
             <button
@@ -126,9 +126,10 @@ export default function Home() {
       <div className="w-screen bg-slate-800 flex items-center justify-center py-28">
         <div className="border-2 border-gray-200 flex flex-col md:flex-row items-center justify-around py-14 px-4 rounded-3xl max-w-[80%] gap-10 md:gap-0">
           <div className="md:max-w-[50%] flex flex-col gap-4">
-            <h1 className="md:text-6xl text-3xl">Drive more engaging meetings.</h1>
+            <h1 className="md:text-6xl text-3xl">
+  Effortless meeting engagements</h1>
             <p className='text-sm md:text-xl'>
-              Ensure your meetings are designed to give everyone the ability to
+            Ensure your meetings are designed to give everyone the ability to
               engage no matter their location, language, or communication style.
             </p>
           </div>
@@ -147,11 +148,18 @@ export default function Home() {
       </div>
 
       <div className='py-20 px-10 flex flex-col gap-16' >
-        <h1 className='md:text-8xl text-5xl font-bold' >Do Business <br /> Better.</h1>
+        <h1 className='md:text-8xl text-5xl font-bold' >Elevate Your Learning  
+        
+
+
+
+
+
+<br /> with Padhai Likhai</h1>
         <div className='flex md:flex-row flex-col items-center gap-12' >
-          <Card h1="Inclusive meetings for all." p="Real-time translation. Closed captions. Noise removal, voice optimization, and people-focused views. Give everyone a seat at the table, no matter how or where they work." />
-          <Card h1="Engagement is everything." p="From custom stage views and immersive share for presentations to interactive polling and Q&A features, meetings can be more enjoyable and productive." />
-          <Card h1="Flexibility comes first." p="Schedule and join meetings across any device with a single tap. Go from desktop to phone to car with our Move to Mobile QR code feature and Apple CarPlay integration. And use our library of embedded apps to simplify workflows." />
+          <Card h1="Personalized Tutoring Sessions" p="Experience tailored learning with Padhai Likhai. Get individualized attention and guidance from expert tutors, with flexible scheduling options." />
+          <Card h1="Interactive Learning Tools" p="Engage in dynamic discussions with real-time collaboration. Practice coding with live feedback and access multimedia resources." />
+          <Card h1="Comprehensive Support System" p="Track progress with assessments. Get 24/7 technical support and join a supportive learning community." />
         </div>
       </div>
 
@@ -163,7 +171,7 @@ export default function Home() {
               className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
             >
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Stream
+                Padhai Likhai
               </span>
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
