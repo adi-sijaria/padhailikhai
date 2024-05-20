@@ -72,13 +72,13 @@ export default function Home() {
 
   return (
     <div className="relative">
-      <h1 className="absolute top-3 left-3 text-3xl">Padhai Likhai</h1>
+      <h1 className="absolute top-3 left-3 text-3xl">Classroom ++</h1>
       
       <div className="relative w-screen min-h-screen flex flex-col md:flex-row items-center justify-around py-28 md:py-0 gap-10 md:gap-0">
       <Image src={arrow} width={80} height={80} id="img"  className='absolute bottom-10 left-1/2 -translate-x-1/2' />
         <div className="md:max-w-[50%] max-w-[90%] flex flex-col gap-2 md:gap-6">
           <h1 className="head opacity-0 translate-y-24 text-4xl md:text-7xl font-bold">
-            Padhai Likhai
+            Classroom ++
           </h1>
           <p className=" opacity-0 para text-2xl md:text-4xl">
             A promise for a better future ...
@@ -155,9 +155,9 @@ export default function Home() {
 
 
 
-<br /> with Padhai Likhai</h1>
+<br /> with Classroom ++</h1>
         <div className='flex md:flex-row flex-col items-center gap-12' >
-          <Card h1="Personalized Tutoring Sessions" p="Experience tailored learning with Padhai Likhai. Get individualized attention and guidance from expert tutors, with flexible scheduling options." />
+          <Card h1="Personalized Tutoring Sessions" p="Experience tailored learning with Classroom ++. Get individualized attention and guidance from expert tutors, with flexible scheduling options." />
           <Card h1="Interactive Learning Tools" p="Engage in dynamic discussions with real-time collaboration. Practice coding with live feedback and access multimedia resources." />
           <Card h1="Comprehensive Support System" p="Track progress with assessments. Get 24/7 technical support and join a supportive learning community." />
         </div>
@@ -171,7 +171,7 @@ export default function Home() {
               className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
             >
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Padhai Likhai
+                Classroom ++
               </span>
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
